@@ -1,0 +1,44 @@
+*{
+    font-size: 24px;
+}
+
+#email:focus{
+    color:red;
+}
+#email:active{
+    background-color: aqua;
+}
+#email{
+    border-radius: 2px;
+    width: 200px;
+}
+#submit{
+    border-radius: 29px;
+    background: linear-gradient(to left bottom, rgb(5, 58, 20) 0%,green 100%);
+    width: 140px;
+}
+#submit:hover{
+    background-color: darkgreen;
+}
+fieldset{
+    width:270px;
+    background-color: bisque;
+}
+legend{
+    text-align: center;
+}
+form input:hover{
+    background-color: aquamarine;
+    cursor:pointer;
+}
+.forms{
+    width: 600px;
+    display: flex;
+    padding-left:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-right:120px;
+    background-color: rgb(187, 178, 164);
+}
+
+
